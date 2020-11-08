@@ -26,7 +26,7 @@ public class SearchMisradApnimTests extends TestBase{
         app.getGeneralStrategy().searchMisradNameFromListOfSimilarNames();
 
         String addressMisradFromSiteSearch = app.getGeneralStrategy().getAddressOfFoundMisradByGeneralSearchStrategy();
-        Assert.assertEquals(addressMisradFromSiteSearch, "שלומציון המלכה 1, רושלים");
+        Assert.assertEquals(addressMisradFromSiteSearch, "שלומציון המלכה 1, ירושלים");
         System.out.println("כתובת: " + addressMisradFromSiteSearch);
 
 
